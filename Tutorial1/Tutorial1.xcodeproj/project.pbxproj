@@ -19,6 +19,7 @@
 		5220BEBD18DEDAE7005AFEE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5220BEA518DEDAE7005AFEE1 /* UIKit.framework */; };
 		5220BEC518DEDAE7005AFEE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5220BEC318DEDAE7005AFEE1 /* InfoPlist.strings */; };
 		5220BEC718DEDAE7005AFEE1 /* Tutorial1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220BEC618DEDAE7005AFEE1 /* Tutorial1Tests.m */; };
+		5220BED118DEDB9B005AFEE1 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5220BED018DEDB9B005AFEE1 /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5220BEC218DEDAE7005AFEE1 /* Tutorial1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tutorial1Tests-Info.plist"; sourceTree = "<group>"; };
 		5220BEC418DEDAE7005AFEE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5220BEC618DEDAE7005AFEE1 /* Tutorial1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial1Tests.m; sourceTree = "<group>"; };
+		5220BED018DEDB9B005AFEE1 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = main.storyboard; path = ../main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		5220BEA718DEDAE7005AFEE1 /* Tutorial1 */ = {
 			isa = PBXGroup;
 			children = (
+				5220BED018DEDB9B005AFEE1 /* main.storyboard */,
 				5220BEB018DEDAE7005AFEE1 /* T1AppDelegate.h */,
 				5220BEB118DEDAE7005AFEE1 /* T1AppDelegate.m */,
 				5220BEB318DEDAE7005AFEE1 /* Images.xcassets */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5220BEAC18DEDAE7005AFEE1 /* InfoPlist.strings in Resources */,
+				5220BED118DEDB9B005AFEE1 /* main.storyboard in Resources */,
 				5220BEB418DEDAE7005AFEE1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
